@@ -8,7 +8,7 @@ export default function FirstPost() {
   return (
     <Layout>
       <Head>
-          <title>Yimpetit</title>
+          <title>Yimpetit's Blog</title>
       </Head>
       <h1 className='p-6 max-w-sm mx-auto bg-red rounded-xl shadow-md flex items-center space-x-4'>
         Read{' '}
