@@ -9,6 +9,8 @@
     "netlify-deploy": "next build && next export"
   },
   "dependencies": {
+    "framer": "^1.3.2",
+    "framer-motion": "^4.1.17",
     "next": "10.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"
