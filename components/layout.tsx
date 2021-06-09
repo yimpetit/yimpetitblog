@@ -1,7 +1,6 @@
 import React from 'react';
 import { useRef } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import Head from 'next/head';
 import { motion, useCycle } from "framer-motion";
 import MenuToggle from './MenuToggle';
@@ -42,12 +41,7 @@ const Layout: React.FC = ({ children }) => {
       <header className="px-6 py-3 flex flex-row justify-between border-b">
         <Link href="/">
           <a className="flex flex-row items-center">
-            <Image
-              src="/img/logo.png"
-              height={30}
-              width={30}
-              alt="Y"
-            />
+            <img src="/img/logo.png" alt="yimpetit"/>
             <span className="ml-3 text-xl font-medium text-gray-600">Yimpetit's Blog</span>
           </a>
         </Link>
