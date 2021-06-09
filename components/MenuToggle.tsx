@@ -34,7 +34,7 @@ const Path: React.FC<PathProps> = props => (
 );
 
 const MenuToggle: React.FC<MenuProps> = ({ toggle }) => (
-  <button onClick={toggle}>
+  <button onClick={toggle} className="btn-nav focus:outline-none lg:hidden">
     <svg width="23" height="23" viewBox="0 0 23 23">
       <Path
         variants={{

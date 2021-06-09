@@ -29,10 +29,6 @@ const navItem = [
   {
     name : '인터랙티브',
     url : '/interactive'
-  },
-  {
-    name : '스택',
-    url : '/stack'
   }
 ];
 

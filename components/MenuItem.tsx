@@ -32,7 +32,7 @@ export const MenuItem:React.FC<MenuProps> = ({title, url}) => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
     >
-      <Link href={url}><a className="text-lg font-black text-gray-400 transition hover:text-blue-400">{title}</a></Link>
+      <Link href={url}><a className="text-lg font-black text-white transition hover:text-blue-400">{title}</a></Link>
     </motion.li>
   );
 }
