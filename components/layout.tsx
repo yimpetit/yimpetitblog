@@ -30,7 +30,7 @@ const sidebar = {
 
 const nav = {
   open: { left: '0' },
-  closed: {left: '-100%'}
+  closed: {left: '-300px'}
 }
 
 
